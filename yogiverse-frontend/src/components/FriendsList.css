@@ -1,0 +1,33 @@
+/* I wrote this code */
+
+/* Friends List Styles */
+.friends-list {
+  min-height: 600px;
+  flex: 0.3;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.friends-list h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.friend-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.friend-list-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.friend-list-link:hover {
+  color: brown;
+}
+/* end of the code I wrote */

@@ -1,0 +1,120 @@
+/* I wrote this code */
+
+/* Header.module.css */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #D8C3A5;
+  color: #fff;
+  z-index: 1000; /* make sure it's above other content */
+}
+
+.header-title {
+  font-size: 24px;
+  margin: 0;
+  color: #E85A4F;
+  align-self: center;
+}
+
+/* Navigation */
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  color: #E85A4F;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+/* Search bar */
+.header-search {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.header-search input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+  color: #fff;
+  font-size: 16px;
+}
+
+.header-search input::placeholder {
+  color: #8E8D8A; /* Placeholder text color */
+}
+
+.search-results-dropdown {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  z-index: 10;
+}
+
+.search-result-item {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.search-result-item:hover {
+  background-color: #f2f2f2;
+}
+
+.header-search {
+  position: relative;
+}
+
+.search-results {
+  position: absolute;
+  width: 700px;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;max-height: 200px;
+  overflow-y: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.search-results li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.search-results li:last-child {
+  border-bottom: none;
+}
+
+.search-results li:hover {
+  background-color: #f7f7f7;
+}
+
+.search-results a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+/* end of the code I wrote */

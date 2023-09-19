@@ -1,0 +1,49 @@
+/* I wrote this code */
+
+/* Login.css */
+
+.login {
+  text-align: center;
+  color: #000;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.login h1 {
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #D8C3A5;
+  color: #E85A4F;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 'bold';
+}
+
+button:hover {
+  background-color: #E98074; 
+  color: #D8C3A5
+}
+
+/* end of the code I wrote */

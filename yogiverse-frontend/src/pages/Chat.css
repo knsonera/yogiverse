@@ -1,0 +1,135 @@
+/* I wrote this code */
+
+/* Chat page styles */
+.chat {
+  min-width: 1000px;
+  min-height: 500px;
+  max-height: 700px;
+  margin-top: 80px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.chat-container {
+  min-height: 600px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+/* Friends List Styling */
+.friends-list {
+  min-height: 600px;
+  flex: 0.3;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.friends-list h2 {
+  margin-bottom: 25px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.selected {
+  font-weight: bold;
+  color: brown;
+}
+
+/* Chat Area */
+.chat-area {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  height: 100%;
+}
+
+.chat-area h2 {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.chat-messages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chat-messages li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.chat-messages li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sent {
+  background-color: #007bff;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.received {
+  background-color: #eee;
+}
+
+.message-sender {
+  font-size: 12px;
+  color: #888;
+}
+
+li {
+  text-align: left;
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.chat-owner {
+  text-align: right;
+  background-color: #4CAF50;
+  color: brown;
+}
+
+
+/* Chat Input */
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.chat-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+/* end of the code I wrote */

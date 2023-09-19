@@ -1,0 +1,19 @@
+/* I wrote this code */
+
+.footer {
+  background-color: #D8C3A5;
+  color: #E85A4F;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+/* end of the code I wrote */
